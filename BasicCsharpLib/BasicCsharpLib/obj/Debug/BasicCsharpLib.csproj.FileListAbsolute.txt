@@ -1,0 +1,6 @@
+C:\Users\Samiksha\OneDrive\Desktop\GitAssignment\Day15Assignment\BasicCsharpLib\BasicCsharpLib\bin\Debug\BasicCsharpLib.dll
+C:\Users\Samiksha\OneDrive\Desktop\GitAssignment\Day15Assignment\BasicCsharpLib\BasicCsharpLib\bin\Debug\BasicCsharpLib.pdb
+C:\Users\Samiksha\OneDrive\Desktop\GitAssignment\Day15Assignment\BasicCsharpLib\BasicCsharpLib\obj\Debug\BasicCsharpLib.csproj.AssemblyReference.cache
+C:\Users\Samiksha\OneDrive\Desktop\GitAssignment\Day15Assignment\BasicCsharpLib\BasicCsharpLib\obj\Debug\BasicCsharpLib.csproj.CoreCompileInputs.cache
+C:\Users\Samiksha\OneDrive\Desktop\GitAssignment\Day15Assignment\BasicCsharpLib\BasicCsharpLib\obj\Debug\BasicCsharpLib.dll
+C:\Users\Samiksha\OneDrive\Desktop\GitAssignment\Day15Assignment\BasicCsharpLib\BasicCsharpLib\obj\Debug\BasicCsharpLib.pdb
