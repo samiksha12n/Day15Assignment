@@ -8,50 +8,34 @@ namespace BasicCsharpLib
 {
     public class ExceptionHandling
     {
-        public class InvalidAge : Exception
+        public void EnterAge()
         {
-            public InvalidAge(string message) : base(message)
+            do
             {
-
-            }
-            public void valid()
-            {
-                int age;
+                Console.WriteLine("Enter yor age to check your are minor/adult/senior");
+                int age = int.Parse(Console.ReadLine());
                 try
                 {
-                    Console.WriteLine("Enter Age");
-                    age = int.Parse(Console.ReadLine());
-                    if (age <= 0 || age >= 150)
+                    if (age > 0 && age < 18)
                     {
-                        throw new InvalidAge("Age must be not negative or greater than 150");
-
+                        Console.WriteLine("Person is minor");
                     }
-                    else if (age >= 18)
+                    else if (age >= 18 && age < 65)
                     {
-                        Console.WriteLine("Eligible to Cast Vote");
-
+                        Console.WriteLine("Person is adult");
                     }
                     else
                     {
-                        Console.WriteLine("Not Eligible to cast vote");
+                        Console.WriteLine("Person is senior");
                     }
-                    Console.WriteLine("Age \t" + age);
                 }
-                catch (InvalidAge ex)
+                catch (Exception e)
                 {
-                    Console.WriteLine("Invalid Age Error !!!" + ex.Message);
-
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("error !!!" + ex.Message);
-                }
-                finally
-                {
-                    Console.WriteLine("End of Program !!!");
-                    Console.ReadKey();
+                    Console.WriteLine("Error Occured" + e.Message);
                 }
             }
+            while (false);
+
         }
 
 

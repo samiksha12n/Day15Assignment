@@ -92,6 +92,7 @@ namespace LinkedBasicCsharpLib
                     case 7:
                         {
                             ExceptionHandling exp = new ExceptionHandling();
+                            exp.EnterAge();
                             break;
                         }
                     default:
